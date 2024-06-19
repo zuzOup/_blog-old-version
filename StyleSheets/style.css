@@ -1,0 +1,43 @@
+:root {
+  --headerWidth: 2000px;
+  --fontHeader: "Send Flowers";
+  --fontText: "Raleway";
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+main {
+  max-width: var(--headerWidth);
+  margin: 0 auto;
+  background-image: url("../public/background-main.png");
+  padding-bottom: 50px;
+}
+
+footer {
+  max-width: var(--headerWidth);
+  height: 100px;
+  margin: 0 auto;
+  background-image: url("../public/background-footer.png");
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #ee2147;
+}

@@ -1,0 +1,49 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+footer p {
+  font-family: var(--fontText);
+  font-size: 1.2em;
+  font-weight: 350;
+  color: white;
+}
+
+#imgFooter {
+  padding: 0 20px;
+}
+
+#zuzOuplink {
+  color: white;
+  font-weight: 500;
+}
+
+#zuzOuplink:hover {
+  color: #ee2147;
+}
+#arrow {
+  margin-left: auto;
+  padding-right: 20px;
+  height: 100px;
+  width: 100px;
+}
+
+#arrow img {
+  position: absolute;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+#arrow:hover {
+  cursor: pointer;
+}
+
+#arrowFront {
+  z-index: 10;
+}
+
+#arrowBack {
+  visibility: hidden;
+}

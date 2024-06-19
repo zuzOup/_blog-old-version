@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Na rok Toronťákama 🗎 🗎 🗎</title>
+    <link rel="icon" href="../public/favicon.png" type="image/x-icon" />
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="../StyleSheets/style.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleHeader.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleBurger.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleMain.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleButton.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleFooter.css" />
+    <link rel="stylesheet" href="../StyleSheets/article/styleArticle.css" />
+    <link rel="stylesheet" href="../StyleSheets/article/styleArticleWeather.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleMobile.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleMobileArticle.css" />
+    <link rel="stylesheet" href="../StyleSheets/styleTablet.css" />
+    <link rel="stylesheet" href="../StyleSheets/article/styleTabletArticle.css" />
+    <link rel="stylesheet" href="../Weather/weather.css" />
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Header-->
+    <div id="navBanner">
+      <nav id="nav">
+        <div id="burgerMenu" class="burgerMenu">
+          <div class="burgerHolder">
+            <span class="burger topBun"></span>
+            <span class="burger patty"></span>
+            <span class="burger bottomBun"></span>
+          </div>
+        </div>
+        <a href="../index.html" class="bubble"
+          ><img src="../public/nav/homepage.png"
+        /></a>
+        <a href="../Archive/Archiv.html" target="_blank" class="bubble"
+          ><img src="../public/nav/archive.png"
+        /></a>
+        <a href="https://www.instagram.com/kudy.na.mestec/" target="_blank" class="bubble"
+          ><img src="../public/nav/insta.png"
+        /></a>
+      </nav>
+    </div>
+    <header id="header" class="header">
+      <div id="headerDiv">
+        <img class="bannerImg" src="../public/banner-header.png" id="bannerImg" />
+      </div>
+    </header>
+
+    <!--Main-->
+
+    <main>
+      <div id="articleContainer">
+        <div id="weather">
+          <div id="weatherPin">
+            <img src="../public/pinImg.png" />
+          </div>
+          <div id="weatherPolaroid">
+            <div id="weatherStatus"></div>
+            <div id="weatherText">
+              <div id="meanTemp"></div>
+              <div id="minMaxDiv">
+                <div class="minMax">Min|Max</div>
+                <div id="minMax" class="minMax">|</div>
+                <div class="minMax">Pocitově</div>
+                <div class="minMax" id="feelsLike"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="articleHeader">
+          <h1 id="articleTitle"></h1>
+          <hr />
+          <h2 id="articleDate"></h2>
+        </div>
+        <div id="articleBody"></div>
+      </div>
+      <div id="nextAndPrevious">
+        <a class="aNP leftNP" id="previousNP">
+          <div class="tinyPolaroid" id="tinyPolaroidPrevious">
+            <div class="photoNP" id="photoNPPrevious"></div>
+          </div>
+          <div class="spacerDiv" id="spacerDivP"></div>
+          <div class="textNP" id="textPrevious"></div>
+        </a>
+        <a class="aNP rightNP" id="nextNP">
+          <div class="tinyPolaroid" id="tinyPolaroidNext">
+            <div class="photoNP" id="photoNPNext"></div>
+          </div>
+          <div class="spacerDiv" id="spacerDivN"></div>
+          <div class="textNP" id="textNext"></div>
+        </a>
+      </div>
+    </main>
+    <footer id="footerArchiv">
+      <img id="imgFooter" src="../public/footer/home.png" />
+
+      <p>
+        © 2023 by
+        <a id="zuzOuplink" href="https://github.com/zuzOup" target="_blank">Zuzka</a>
+      </p>
+      <div id="arrow">
+        <img id="arrowFront" src="../public/footer/arrow-before.png" />
+        <img id="arrowBack" src="../public/footer/arrow-after.png" />
+      </div>
+    </footer>
+    <script src="../scripts/burgerJS.js"></script>
+    <script src="../scripts/article/articlesData.js"></script>
+    <script src="../scripts/article/articleMaker.js"></script>
+    <script src="../scripts/footerJS.js"></script>
+    <script src="../scripts/article/ArticleNextPrevious.js"></script>
+    <script src="../scripts/article/weather.js"></script>
+    <script src="../scripts/article/articleMakerFinal.js"></script>
+  </body>
+</html>

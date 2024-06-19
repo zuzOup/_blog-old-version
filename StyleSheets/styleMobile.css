@@ -1,0 +1,125 @@
+/* Main Page*/
+
+@media screen and (max-width: 480px) {
+  :root {
+    --navHeight: 15vw;
+    --distance: 8vw;
+    --bubblesize: 12vw;
+  }
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  header {
+    height: auto;
+  }
+  #bannerText h1 {
+    width: 60%;
+    font-size: 13vw;
+    line-height: 0.9;
+    text-align: center;
+    margin: auto;
+  }
+
+  #burgerMenu {
+    box-shadow: none;
+  }
+
+  .introDiv img {
+    visibility: hidden;
+    height: 0px;
+    width: 0;
+    padding: 0;
+  }
+
+  .introDiv p {
+    padding: 15px;
+    font-size: 18px;
+    max-height: fit-content;
+    line-height: 1.5;
+  }
+
+  main {
+    background-size: 200px;
+    padding-bottom: 0;
+  }
+  .line {
+    padding-top: 10px;
+    height: auto;
+    max-height: fit-content;
+  }
+  .photoContainer {
+    flex-direction: column;
+    background-image: none;
+    padding: 0;
+  }
+
+  .photoContainerUnit {
+    height: auto;
+    width: auto;
+    max-width: none;
+    max-height: none;
+  }
+
+  .pinPart {
+    height: 60px;
+    background-image: url("../public/lines/1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .photoPart {
+    height: 95%;
+    width: 95%;
+    margin: auto;
+  }
+
+  .polaroidImg {
+    width: 86%;
+    margin: 0 7%;
+    padding: 7% 0 0 0;
+  }
+  .polaroidArticleName {
+    padding: 10px 0;
+  }
+  .polaroidArticleName h2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .polaroidArticleName h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  footer {
+    height: 50px;
+  }
+  footer p {
+    font-size: 14px;
+  }
+  #imgFooter {
+    width: 0;
+    padding: 0 10px 0 0;
+  }
+  #arrow {
+    height: 50px;
+    width: 50px;
+    padding-right: 5px;
+  }
+  #arrow img {
+    height: 50px;
+    width: 50px;
+  }
+
+  /*archiv*/
+  #mainArchiv {
+    padding-bottom: 20px;
+  }
+
+  #zuzOuplink {
+    color: #ee2147;
+  }
+}

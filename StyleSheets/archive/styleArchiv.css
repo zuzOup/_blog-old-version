@@ -1,0 +1,16 @@
+:root {
+  --padding: 20px;
+}
+
+#navBanner {
+  margin-left: 0;
+}
+
+.photoContainerUnit {
+  margin: auto;
+  max-width: 25vw;
+}
+
+.line {
+  background: none;
+}

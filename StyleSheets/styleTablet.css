@@ -1,0 +1,79 @@
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  :root {
+    --navHeight: 12vw;
+    --distance: 7vw;
+    --bubblesize: 10vw;
+  }
+  body {
+    max-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+
+    width: 100%;
+  }
+
+  #burgerMenu {
+    box-shadow: none;
+  }
+
+  #bannerText h1 {
+    width: 60%;
+    font-size: 11vw;
+    line-height: 0.9;
+    text-align: center;
+    margin: auto;
+  }
+  .bubble:hover {
+    box-shadow: none;
+  }
+  .introDiv {
+    max-height: fit-content;
+    display: block;
+  }
+
+  .introDiv p {
+    padding: 40px;
+    max-height: fit-content;
+  }
+
+  .introDiv img {
+    float: left;
+    padding: 40px 20px 0 40px;
+  }
+
+  main {
+    height: 100%;
+
+    margin-bottom: auto;
+  }
+
+  .line {
+    height: auto;
+    max-height: none;
+  }
+
+  .photoContainer {
+    flex-wrap: wrap;
+    row-gap: 60px;
+    padding-bottom: 60px;
+    background-image: none;
+  }
+  .photoContainerUnit {
+    height: 50vw;
+    min-width: 50%;
+    flex: 1 1;
+  }
+  .polaroidArticleName h2 {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  .polaroidArticleName h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  #zuzOuplink {
+    color: #ee2147;
+  }
+}

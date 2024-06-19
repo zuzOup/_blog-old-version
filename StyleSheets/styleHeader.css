@@ -1,0 +1,82 @@
+#headerDiv {
+  display: flex;
+  max-width: var(--headerWidth);
+  margin: 0 auto;
+}
+
+.bannerImg {
+  width: 100%;
+  max-width: var(--headerWidth);
+  position: relative;
+  z-index: 0;
+}
+
+#navBanner {
+  position: relative;
+  z-index: 10;
+  margin: 0 0 0 0;
+  width: 100%;
+  max-width: var(--headerWidth);
+  display: block;
+  margin-left: -100%;
+}
+
+#bannerText {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bannerText h1 {
+  margin: 0;
+  font-size: clamp(1px, 7.5vw, 150px);
+  font-family: var(--fontHeader);
+  font-weight: 300;
+}
+
+#bannerVice {
+  position: absolute;
+  font-family: var(--fontHeader);
+  font-size: clamp(1px, 1.5vw, 50px);
+  font-weight: 100;
+  margin: 0;
+}
+
+#bannerVice h2 {
+  margin: 0;
+}
+
+#bannerVice div {
+  height: 20px;
+  background-color: red;
+}
+
+.introDiv {
+  display: flex;
+
+  max-height: 100%;
+  align-items: center;
+  max-width: 2000px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.introDiv img {
+  padding: 0 40px;
+  height: 120px;
+  max-height: calc(100% - 80px);
+}
+
+.introDiv p {
+  padding: 40px 80px 40px 40px;
+  height: auto;
+  margin: 0;
+  max-height: calc(250px - 80px);
+  font-family: var(--fontText);
+  font-size: 1.2em;
+  font-weight: 350;
+  text-align: justify;
+  line-height: 1.4;
+}

@@ -1,0 +1,95 @@
+@media screen and (max-width: 480px) {
+  #navBanner {
+    position: fixed;
+  }
+  .burgerMenu,
+  .bubble {
+    box-shadow: 0px 0px 8px 1px #878787 !important;
+  }
+  .bannerImg {
+    width: auto;
+    height: calc(2vw + (var(--navHeight)));
+  }
+
+  #articleContainer {
+    width: auto;
+  }
+
+  #articleTitle {
+    font-size: 3rem;
+    padding: 0 10px;
+  }
+  hr {
+    width: 12vw;
+  }
+
+  #articleBody {
+    padding: 10px 20px 20px 20px;
+  }
+
+  #articleBody p {
+    padding: 10px 0;
+  }
+
+  .divImgWrap img {
+    width: 150px;
+    float: right;
+    padding: 20px 0 0 var(--padding) !important;
+  }
+
+  #articleBody .grid {
+    padding: 0;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
+  #articleBody img {
+    padding: 10px 0;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+  footer {
+    background-size: 100px;
+  }
+  #nextAndPrevious {
+    padding-top: 0;
+    width: auto;
+  }
+  .leftNP,
+  .rightNP {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .spacerDiv {
+    height: 10px;
+  }
+  .NPtitle,
+  .NPdate {
+    visibility: hidden;
+    height: 0;
+  }
+
+  .rightNP {
+    align-items: end;
+  }
+
+  .hiddenArrow {
+    color: black;
+    visibility: visible;
+    width: auto;
+  }
+  .textNP > span {
+    flex-direction: column-reverse !important;
+  }
+
+  #textNext > span {
+    align-items: end;
+  }
+
+  #textPrevious > span {
+    align-items: start;
+  }
+}
